@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Verifique seu IMC:</h1>
+        <p>Objetivo deste site é aprecentar o seu IMC, verificando o seu peso é sua altura.</p>
+    </header>
+
+    <main id="conteudo">
+     <div>
+        <label for="peso">PESO:</label>
+        <input type="number" name="peso" id="peso">
+        
+        <label for="altura">ALTURA:</label>
+        <input type="number" name="altura" id="altura">
+
+        <input id="botao" type="button" value="Constar" onclick="constar()">
+     </div>   
+     <div id="divres">
+        <p id="res">Preparando os Dados...</p>
+     </div>   
+    </main>
+
+    <footer id="rodape">
+        <p>&copy;Jheferson</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

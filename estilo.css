@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #181886;
+    --color2: rgb(38, 151, 38);
+    --color3: rgb(182, 127, 26);
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0px;
+}
+header#cabecalho{
+    background-color: var(--color1);
+    padding: 30px;
+}
+header h1{
+    margin: 10px;
+}
+main#conteudo{
+    margin: 100px 50px;
+    background-color: var(--color2);
+    border-radius: 10px;
+    padding: 20px;
+}
+main label{
+    font-size: 10px;
+    font-weight: bold;
+}
+main input{
+    display: flex;
+    margin-bottom: 30px;
+    border: 0px;
+    border-radius: 10px;
+    color: black;
+}
+main div#divres{
+    padding: 10px;
+    margin-right: 500px;
+}
+main #botao{
+    color: var(--color2);
+}
